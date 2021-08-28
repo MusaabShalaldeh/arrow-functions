@@ -221,3 +221,4 @@ console.log(joe.scopeArrow());
 //  the whole browser window
 // 3. Explain why "this" is different when an arrow function is used.
 // because arrow functions don't how their own "this" and they always refer to their closest non-arrow parent function, if there are no parent function it will refer to the browser window.
+//
